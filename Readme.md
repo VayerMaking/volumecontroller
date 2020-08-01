@@ -19,7 +19,9 @@ Using Arduino and a rotary encoder to control volume levels on your PC.
   2. [Arduino IDE](https://www.arduino.cc/en/main/software)
 
 
+## Schematics
 
+![schematic](https://github.com/VayerMaking/volumecontroller/blob/master/Screenshot_20200801_175618.png)
 
 ## How to use
 
