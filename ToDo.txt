@@ -1,4 +1,3 @@
-*disign
 *add 3d print enclosure
 *make printable files
 *more detailed build instructions
