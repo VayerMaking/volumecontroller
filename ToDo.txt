@@ -3,3 +3,4 @@
 *add functionality when you press the button to start/pause
 *more detailed build instructions
 *RGB?
+*started using esp8266 because arduino nano broke down, may be add a feature using esp's wi-fi connectivity
