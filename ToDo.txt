@@ -1,4 +1,5 @@
 *add 3d print enclosure
 *make printable files
+*add functionality when you press the button to start/pause
 *more detailed build instructions
 *RGB?
