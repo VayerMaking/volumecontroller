@@ -2,7 +2,7 @@
 
 
 
-Using Arduino and a rotary encoder to control volume levels on your PC.
+Using Arduino or NodeMCU and a rotary encoder to control volume levels on your PC.
 
 
 
@@ -21,7 +21,9 @@ Using Arduino and a rotary encoder to control volume levels on your PC.
 
 ## Schematics
 
-![schematic](https://github.com/VayerMaking/volumecontroller/blob/master/Screenshot_20200801_175618.png)
+![schematic for nodeMCU esp8266 module](https://github.com/VayerMaking/volumecontroller/blob/master/image.png)
+
+![schematic for arduino nano](https://github.com/VayerMaking/volumecontroller/blob/master/Screenshot_20200801_175618.png)
 
 the schematic is taken from [circuito.io](https://www.circuito.io/)
 ## How to use
@@ -39,7 +41,7 @@ contains the Arduino code which sends serial data from the sensor to the PC
 ```sh
 volumecontrol.pde
 ```
-contains the processing code which reads from the serial data from the Arduino and simulates keypresses
+contains the processing code which reads from the serial data from the Arduino/NodeMCU and simulates keypresses
 
 
 

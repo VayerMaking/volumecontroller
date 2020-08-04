@@ -1,5 +1,5 @@
-#define outputA 6
-#define outputB 7
+#define outputA 0
+#define outputB 4
 int counter = 0;
 int aState;
 int aLastState;
