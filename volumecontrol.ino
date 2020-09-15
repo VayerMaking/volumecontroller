@@ -1,12 +1,14 @@
 #define outputA 0
 #define outputB 4
+
 int counter = 0;
 int aState;
 int aLastState;
 int pot;
 void setup() {
-  pinMode (outputA,INPUT);
-  pinMode (outputB,INPUT);
+  pinMode(outputA,INPUT);
+  pinMode(outputB,INPUT);
+
 
   Serial.begin (9600);
   // Reads the initial state of the outputA

@@ -27,39 +27,44 @@ void draw() //this will loop by 60 frame per second by default , frame rate can 
 
   if (arduino.available()>0) //checking whether there is incomming serial values
   {
-    inByte=arduino.read(); //storing incomming values to variable inByte
-  } else
-  {
-    reading=0; //if no values are comming from our port reading will be zero
+    inByte = arduino.read(); //storing incomming values to variable inByte
+  }else{
+    reading = 0; //if no values are comming from our port reading will be zero
   }
 
   //println("inByte",inByte);//printing inByte value , only for debuging purpose, we can command this line
   newPosition = inByte;
   //println("newPosition",newPosition);
-  if (newPosition != oldPosition && (newPosition % 2) == 0){
-    if (newPosition > oldPosition){
-      //Consumer.write(MEDIA_VOLUME_UP); //volume++;
-      up();
-      oldPosition = newPosition;
+  if(newPosition != oldPosition && (newPosition % 2) == 0){
+    if(newPosition > oldPosition){
+        //volume++;
+        up();
+        oldPosition = newPosition;
     }else{
-      //Consumer.write(MEDIA_VOLUME_DOWN); //volume--;
-      down();
-      oldPosition = newPosition;
-      }
-
+        //volume--;
+        down();
+        oldPosition = newPosition;
     }
+
+  }
+
 }
 //function for the volume up
 void up(){
-ctrl.keyPress(17);
-ctrl.keyPress(38);
-ctrl.keyRelease(17);
-ctrl.keyRelease(38);
+  ctrl.keyPress(17);
+  ctrl.keyPress(38);
+  ctrl.keyRelease(17);
+  ctrl.keyRelease(38);
 }
 //function for the volume down
 void down(){
-ctrl.keyPress(17);
-ctrl.keyPress(40);
-ctrl.keyRelease(17);
-ctrl.keyRelease(40);
+  ctrl.keyPress(17);
+  ctrl.keyPress(40);
+  ctrl.keyRelease(17);
+  ctrl.keyRelease(40);
+}
+//function for the space button
+void space(){
+  ctrl.keypress(32);
+  ctrl.keyRelease(32);
 }
