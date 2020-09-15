@@ -21,9 +21,9 @@ Using Arduino or NodeMCU and a rotary encoder to control volume levels on your P
 
 ## Schematics
 
-![schematic for nodeMCU esp8266 module](https://github.com/VayerMaking/volumecontroller/blob/master/image.png)
+![schematic for nodeMCU esp8266 module](https://github.com/VayerMaking/volumecontroller/blob/master/images/image.png)
 
-![schematic for arduino nano](https://github.com/VayerMaking/volumecontroller/blob/master/Screenshot_20200801_175618.png)
+![schematic for arduino nano](https://github.com/VayerMaking/volumecontroller/blob/master/images/Screenshot_20200801_175618.png)
 
 the schematic is taken from [circuito.io](https://www.circuito.io/)
 ## How to use
@@ -43,7 +43,15 @@ volumecontrol.pde
 ```
 contains the processing code which reads from the serial data from the Arduino/NodeMCU and simulates keypresses
 
+## Photos
 
+![photo1](https://github.com/VayerMaking/volumecontroller/blob/master/images/IMG_20200915_175421.jpg)
+
+![photo2](https://github.com/VayerMaking/volumecontroller/blob/master/images/IMG_20200915_175523.jpg)
+
+![photo3](https://github.com/VayerMaking/volumecontroller/blob/master/images/IMG_20200915_175600.jpg)
+
+![photo4](https://github.com/VayerMaking/volumecontroller/blob/master/images/IMG_20200915_192801.jpg)
 
 ## Author
 
