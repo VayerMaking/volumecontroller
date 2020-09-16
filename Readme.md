@@ -8,7 +8,7 @@ Using Arduino or NodeMCU and a rotary encoder to control volume levels on your P
 
 ## First ofc
 
-    git clone https://github.com/VayerMaking/volumecontrol
+    git clone https://github.com/VayerMaking/volumecontroller
 
 ## Requirements
 
